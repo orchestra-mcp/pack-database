@@ -1,0 +1,14 @@
+{
+    "name": "orchestra-mcp/pack-database",
+    "description": "Database skills and agents for PostgreSQL, SQLite, and Redis",
+    "version": "0.1.0",
+    "type": "pack",
+    "license": "MIT",
+    "stacks": ["*"],
+    "contents": {
+        "skills": ["database-sync"],
+        "agents": ["dba", "postgres-dba", "sqlite-engineer", "redis-engineer"],
+        "hooks": []
+    },
+    "tags": ["database", "postgresql", "sqlite", "redis", "sync"]
+}
